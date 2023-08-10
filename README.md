@@ -1,3 +1,13 @@
+
+This project was made by using useEffect to get API dates from the https://www.edamam.com/
+
+Website: 
+
+![recipe-app](https://github.com/KaSofi/recipe-app/assets/103929930/321c1b65-b358-45a3-82af-2d7c8091a26b)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
