@@ -1,10 +1,121 @@
+body {
+margin: 0 auto;
+}
 .App {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.itemsBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.labelsBlock {
+  border-left: 2px solid gray;
+  width: 200px;
+}
+.caloriesBlock {
+  width: 200px;
+}
+.ingredientsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+::placeholder {
+  color: rgb(227, 226, 226);
+}
+.RecipeComponent {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(244, 241, 241);
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  border: 2px solid rgb(231, 231, 231);
+}
+.RecipeComponent:hover {
+  background-color: rgb(225, 224, 224);
+  border: 2px solid #1cd523;
+}
+.RecipeComponent h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+  
+.RecipeComponent img {
+  width: 300px;
+}
+.TitleSearchBlock {
+  display: flex;
+  height: 55px;
+  background-color: rgb(228, 227, 227);
+}
+.TitleSearchBlock h1 {
+  margin-top: 5px;
+  color: #1cd523;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-left: 10px;
+}
+.FormBlock {
+  width: 800px;
+  margin: 0 auto;
+}
+.FormBlock input {
+  width: 700px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  margin-top: 2px;
+  outline-color: #1cd523;
+  color: #1cd523;
+}
+.FormBlock button {
+  background-color: white;
+  border: none;
+  margin-left: -60px;
+  cursor: pointer;
+}
+.titleBlock {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleBlock h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: gray;
+  letter-spacing: 2px;
+}
+.searchBlock {
+  display: flex;
+  justify-content: center;
+}
+.searchBlock input {
+  border: none;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.searchBlock button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+hr {
+  
+}
+.icon {
+  max-width: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
