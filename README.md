@@ -1,7 +1,8 @@
 
 This project was made by using useEffect to get API dates from the https://www.edamam.com/
 
-Website: 
+Website:  https://react-api-recipe.netlify.app/
+
 
 
 ![recipe-app](https://github.com/KaSofi/React-recipe/assets/103929930/07668ece-0d03-4332-875d-6aadc59807fc)
