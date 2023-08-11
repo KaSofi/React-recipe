@@ -3,7 +3,10 @@ This project was made by using useEffect to get API dates from the https://www.e
 
 Website: 
 
-![recipe-app](https://github.com/KaSofi/recipe-app/assets/103929930/321c1b65-b358-45a3-82af-2d7c8091a26b)
+
+![recipe-app](https://github.com/KaSofi/React-recipe/assets/103929930/07668ece-0d03-4332-875d-6aadc59807fc)
+
+
 
 
 
