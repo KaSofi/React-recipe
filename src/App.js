@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import MyRecipesComponent from './MyRecipesComponent';
 import SearchIcon from './assets/searchIcon.svg';
-import Ingredient from './Ingredients';
 
 // https://api.edamam.com/api/recipes/v2?type=public&q=milk&app_id=0ce90b9d&app_key=cc4e3259233fa40cd19f33cab3a8422e // - можно просто прописать эту ссылку, не разделяя на id  и key. Она тоже будет работать
 
